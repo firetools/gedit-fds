@@ -8,8 +8,8 @@ Released under the terms of the GNU General Public License, GEdit is free softwa
 
 ## How to install GEdit FDS syntax highlight plugin
 
-- Download the latest version from: https://raw.githubusercontent.com/firetools/gedit-fds/main/fds.lang
-- In Linux, Copy the `fds.lang` file to the following locations:
+- Download the latest version of the [fds.lang](https://raw.githubusercontent.com/firetools/gedit-fds/main/fds.lang) file
+- In Linux, copy the `fds.lang` file to the following locations:
    * `~/.local/share/gtksourceview-4.0/language-specs/`
    * `~/.local/share/gtksourceview-3.0/language-specs/`
 - Run the `gedit` editor and enjoy FDS syntax highlighting.
