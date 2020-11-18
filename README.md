@@ -6,7 +6,7 @@ Designed as a general purpose text editor, gedit emphasizes simplicity and ease 
 
 Released under the terms of the GNU General Public License, GEdit is free software.
 
-## How to install GEdit FDS syntax highlight plugin
+## How to install
 
 - Download the latest version of the [fds.lang](https://raw.githubusercontent.com/firetools/gedit-fds/main/fds.lang) file
 - In Linux, copy the `fds.lang` file to the following locations:
