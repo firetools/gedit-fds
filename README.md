@@ -17,3 +17,5 @@ Released under the terms of the GNU General Public License, GEdit is free softwa
 ### License
 
 This plugin is released under the GNU General Public License (GPL) 2016 by Emanuele Gissi, PhD.
+
+![](https://github.com/firetools/blenderfds/wiki/images/quickstart/fds_gedit.png)
