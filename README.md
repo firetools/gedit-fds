@@ -10,18 +10,20 @@ Released under the terms of the GNU General Public License, GEdit is free softwa
 
 - Download the latest version of the [fds.lang](https://raw.githubusercontent.com/firetools/gedit-fds/main/fds.lang) file
 - In Linux, copy the `fds.lang` file to the following locations:
-   * `~/.local/share/gtksourceview-3.0/language-specs/`
-   * `~/.local/share/gtksourceview-4.0/language-specs/`
+   * `~/.local/share/gtksourceview-3.0/language-specs/`, for old Gnome versions
+   * `~/.local/share/gtksourceview-4/language-specs/`
+   * `~/.local/share/gtksourceview-5/language-specs/`, for Gnome 42 or later
    or run the following commands in a terminal window:
    ```bash
    mkdir -p ~/.local/share/gtksourceview-{3..4}.0/language-specs
    cp -n fds.lang ~/.local/share/gtksourceview-3.0/language-specs
-   cp -n fds.lang ~/.local/share/gtksourceview-4.0/language-specs
+   cp -n fds.lang ~/.local/share/gtksourceview-4/language-specs
+   cp -n fds.lang ~/.local/share/gtksourceview-5/language-specs
    ```
-- Run the `gedit` editor and enjoy FDS syntax highlighting.
+- Run the `gedit` editor or the new `gnome-text-editor` and enjoy FDS syntax highlighting.
 
 ### License
 
 This plugin is released under the GNU General Public License (GPL) 2016 by Emanuele Gissi, PhD.
 
-![](https://github.com/firetools/blenderfds/wiki/images/quickstart/fds_gedit.png)
+![](https://github.com/firetools/blenderfds/wiki/p/fds-gedit.png)
