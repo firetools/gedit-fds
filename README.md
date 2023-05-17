@@ -1,7 +1,7 @@
 # GTK syntax highlighting for NIST FDS input files
 
 [GTK](https://www.gtk.org/) is the cross-platform development tool for the Linux GNOME desktop environment.
-GNOME text editors (eg. Gnome GEdit and [Text Editor](https://gitlab.gnome.org/GNOME/gnome-text-editor) use GTK syntax highlighting-.
+GNOME text editors (eg. Gnome GEdit and [Text Editor](https://gitlab.gnome.org/GNOME/gnome-text-editor)) use GTK syntax highlighting.
 
 Released under the terms of the GNU General Public License, GTK, GEdit, and Text Editor are free software.
 
