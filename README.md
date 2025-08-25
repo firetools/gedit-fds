@@ -1,23 +1,18 @@
-# GTK syntax highlighting for NIST FDS input files
+# Syntax highlighting for NIST FDS input files in Linux text editors 
 
-[GTK](https://www.gtk.org/) is the cross-platform development tool for the Linux GNOME desktop environment.
-GNOME text editors (eg. Gnome GEdit and [Text Editor](https://gitlab.gnome.org/GNOME/gnome-text-editor)) use GTK syntax highlighting.
-
-Released under the terms of the GNU General Public License, GTK, GEdit, and Text Editor are free software.
+If you are using NIST FDS on Linux, and you are editing your cases
+with the new [Gnome Text Editor](https://gitlab.gnome.org/GNOME/gnome-text-editor),
+you can install a specific syntax highlighting.
 
 ## How to install
 
-- Download the latest version of the [fds.lang](https://raw.githubusercontent.com/firetools/gedit-fds/main/fds.lang) file
-- In Linux, copy the `fds.lang` file to the following locations:
-   * `~/.local/share/gtksourceview-4/language-specs/`
-   * `~/.local/share/gtksourceview-5/language-specs/`, for Gnome 42 or later
-   or run the following commands in a terminal window:
-   ```bash
-   mkdir -p ~/.local/share/gtksourceview-{4..5}/language-specs
-   cp -n fds.lang ~/.local/share/gtksourceview-4/language-specs
-   cp -n fds.lang ~/.local/share/gtksourceview-5/language-specs
-   ```
-- Run the `GEdit` editor or the new `Text Editor` and enjoy FDS syntax highlighting.
+- Download the latest version of the [fds.lang](https://raw.githubusercontent.com/firetools/gedit-fds/main/fds.lang) file.
+- Copy the `fds.lang` file to the following locations:
+  - `~/.local/share/gtksourceview-5/language-specs/`, for olders versions;
+  - `~/.local/share/libgedit-gtksourceview-300/language-specs/`, for the packaged version (eg. rpm, deb);
+  - `~/.var/app/org.gnome.TextEditor/data/libgedit-gtksourceview-300/language-specs/`, for the [flatpak version](https://flatpak.org/).
+
+Restart your session and enjoy FDS syntax highlighting in Gnome Text Editor
 
 ### License
 
